@@ -1,6 +1,6 @@
 ﻿// var connection = new WebSocket('ws://localhost:3000'); // https://web-rtc-backend-lyart.vercel.app/
 
-const backendUrl = 'https://web-rtc-backend-lyart.vercel.app'; // Replace with your actual backend URL
+const backendUrl = 'https://autumn-skillful-leaf.glitch.me'; // Replace with your actual backend URL
 const socketUrl = backendUrl.replace(/^http/, 'ws');
 
 const connection = new WebSocket(socketUrl);
